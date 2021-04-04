@@ -6,7 +6,7 @@ body {
   animation-name: bg;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
-  animation-delay: 2.2s;
+  animation-delay: 2.4s;
   animation-fill-mode: forwards;
   min-height: 100vh;
   display: flex;
@@ -27,6 +27,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0.2;
   }
   50% {
     top: 50%;
@@ -43,6 +44,7 @@ body {
     transform: rotate(1080deg) scale(1);
     top: 20px;
     left: 20px;
+    opacity: 1;
   }
 }
 
